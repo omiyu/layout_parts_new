@@ -18,41 +18,39 @@
   margin-top: 0;
 }
 
-.box_orenge {
+.q4_box {
   display: table-cell;
+  padding: 20px;
+}
+
+.box_orenge {
   width: 100px;
-  padding: 20px ;
   background-color: #fdc8b8;
 }
 
-.box_purple {
+.box_purple { 
   display: table-cell;
-  padding: 20px ;
   background-color: #e0abd9;
 }
 
-.box_blue {
+.box_blue { 
   display: table-cell;
   width: 100px;
-  padding: 20px ;
   background-color: #b6d8ed;
 }
 
-.box_yellow {
+.box_yellow { 
   display: table-cell;
-  padding: 20px ;
   background-color: #e5d32e;
 }
 
-.box_pink {
+.box_pink { 
   display: table-cell;
-  padding: 20px ;
   background-color: #ec8f9a;
 }
 
-.box_green {
+.box_green {  
   display: table-cell;
-  padding: 20px ;
   background-color: #8fdcad;
   width: 500px;
 }

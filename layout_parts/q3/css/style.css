@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.q3_table,th,td {
+.q3_table th ,td {
   border: 1px solid #dedede;
   box-sizing: border-box;
   padding: 10px 0;
@@ -27,12 +27,6 @@
   color: #ffffff;
 }
 
-.q3_table tr td:first-child {
-  background-color: #2244aa;
-  font-size: 18px;
-  line-height: 26px;
-  color: #ffffff;
-}
 .q3_table tr:last-child {
   border-top: dashed #000 2px;
 }

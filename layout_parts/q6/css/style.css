@@ -4,9 +4,6 @@
 
 /* Q6-1 */
 .q6_box_text {
-  /* display: inline-block; */
-  margin: 0 auto;
-  text-align: center;
   background-color: #e6f2ff;
   width: 90px;
   padding: 10px 0;
@@ -23,21 +20,15 @@
 }
 
 .is-textalign {
-  display: inline-block;
+  text-align: center;
 }
 
 .is-margin {
-  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* Q6-2 */
-.q6--around {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: #ECF1F2;
-}
-
 .q6--around.table {
   display: table;
 }

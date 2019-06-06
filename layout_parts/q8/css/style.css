@@ -91,25 +91,25 @@
   content: "";
 }
 
-.q8_form_main1 {
+.q8_form_main_left {
   float: left;
   width: 300px;
 }
 
-.q8_form_main2 {
+.q8_form_main_right {
   float: right;
   width: 380px;
 }
 
-ul.q8_form_main1_items {
+ul.q8_form_main_left_items {
   margin-bottom: 20px;
 }
 
-li.q8_form_main1_item {
+li.q8_form_main_left_item {
   margin-top: 20px;
 }
 
-li.q8_form_main1_item:first-child {
+li.q8_form_main_left_item:first-child {
   margin-top: 0;
 }
 
