@@ -5,8 +5,9 @@
 /* Q6-1 */
 .q6_box_text {
   background-color: #e6f2ff;
-  width: 90px;
+  margin: 0 auto;
   padding: 10px 0;
+  width: 90px;
 }
 
 .q6_box {
@@ -24,7 +25,6 @@
 }
 
 .is-margin {
-  margin: 0 auto;
   text-align: center;
 }
 

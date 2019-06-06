@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.q3_table th ,td {
+.q3_table th ,.q3_table td {
   border: 1px solid #dedede;
   box-sizing: border-box;
   padding: 10px 0;

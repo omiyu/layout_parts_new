@@ -28,10 +28,10 @@
   width: 0;
   height: 0;
   border: 20px solid transparent;
-  border-top: 20px solid #fff;
-  content:"";
-  bottom:-38px;
-  left:30px;
+  border-top-color: #fff;
+  content: "";
+  bottom: -38px;
+  left: 30px;
 }
 
 
