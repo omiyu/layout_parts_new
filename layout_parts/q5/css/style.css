@@ -1,5 +1,95 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q5 {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background-color: #ECF1F2;
+  position: relative;
+}
 
+.q5_box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute; 
+}
+
+.q5_box.box_cream {
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+}
+
+.q5_box.box_blue {
+  background-color: #7084de;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+}
+
+.q5_box.box_light-blue {
+  background-color: #d0ecea; 
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+}
+
+.q5_box.box_brown {
+  background-color: #8b7a5e;
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+}
+
+.q5_box.box_mint-green {
+  background-color: #9fd6d2;
+  bottom: 40px;
+  left: 200px;
+  z-index: 5;
+}
+
+.q5_box.box_off-white {
+  background-color: #fffee4;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+}
+
+.q5_box.box_orenge {
+  background-color: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+}
+
+.q5_box.box_pink {
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+
+.q5_box.box_navy {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #2b69a3;
+}
+
+/* ！ここまだ理解できていない！ */
+.q5_box.box_pink:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  content: "";
+}
 /* 回答はここに書いてね */

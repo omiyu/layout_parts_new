@@ -2,4 +2,84 @@
 
 /* 回答はここに書いてね */
 
+/* Q6-1 */
+.q6_box_text {
+  /* display: inline-block; */
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
+}
+
+.q6_box {
+  display: inline-block;
+  width: 300px;
+  margin: 0 10px;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.is-textalign {
+  display: inline-block;
+}
+
+.is-margin {
+  display: inline-block;
+}
+
+/* Q6-2 */
+.q6--around {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #ECF1F2;
+}
+
+.q6--around.table {
+  display: table;
+}
+
+.q6_table_text_box {
+  display: table-cell;
+  background-color: #ECF1F2;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q6_text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.q6--around.flex {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Q6-3 */
+.q6--position .q6__box {
+  position: relative;
+}
+
+.q6__box.is-stable .q6__box__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.q6__box.is-flexible .q6__box__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
 /* 回答はここに書いてね */

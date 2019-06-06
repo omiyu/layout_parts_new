@@ -2,4 +2,94 @@
 
 /* 回答はここに書いてね */
 
+/* 共通部分 */
+.box {
+  font-size: 16px;
+}
+
+/* Q7-1 */
+.q7--float .q7__box {
+  float: left;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.q7--float .q7__box:first-child {
+  margin-left: 0;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* Q7-2 */
+.q7--table .q7__inner {
+  display: table;
+  padding: 0 auto;
+}
+
+.q7--table .q7__box {
+  padding-left: 50px;
+  font-size: 16px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.q7--table .q7__box:first-child {
+  padding: 0;
+}
+
+.q7--table .q7__box__text {
+  box-sizing: border-box;
+  width: 225px;
+}
+
+/* Q7-3 */
+.q7--inlineblock .q7__box {
+  display: inline-block;
+  width: 225px;
+  margin-left: 50px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.q7--inlineblock .q7__box:first-child {
+  margin: 0;
+}
+
+.q7--inlineblock .q7__inner {
+  font-size: 0;
+}
+
+/* Q7-4 */
+.q7--flex .q7__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7--flex .q7__box {
+  box-sizing: border-box;
+  width: 225px;
+}
+
+/*  Q7-5 */
+
+.q7--margin .q7__box.stable {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.q7--margin .q7__box.flexible {
+  display: inline-block;
+  width: calc(100% - 370px);
+  vertical-align: top;
+  margin-left: -300px;
+  padding-left: 350px;
+}
+
 /* 回答はここに書いてね */
